@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baljeet | Data Analyst Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f7fbff;
+background-image:
+linear-gradient(rgba(0,120,255,.08) 1px, transparent 1px),
+linear-gradient(90deg, rgba(0,120,255,.08) 1px, transparent 1px);
+background-size:60px 60px;
+color:#111827;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+backdrop-filter:blur(12px);
+background:rgba(255,255,255,.8);
+z-index:1000;
+border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.nav-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:30px;
+font-weight:800;
+color:#0078ff;
+}
+
+.nav-links a{
+text-decoration:none;
+margin-left:25px;
+color:#111827;
+font-weight:500;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+}
+
+.badge{
+display:inline-block;
+padding:12px 22px;
+border:2px solid #57a8ff;
+border-radius:40px;
+color:#57a8ff;
+letter-spacing:2px;
+font-size:14px;
+margin-bottom:25px;
+}
+
+.hero h1{
+font-size:90px;
+font-weight:800;
+line-height:1;
+}
+
+.hero h1 span{
+color:#0078ff;
+}
+
+.hero p{
+margin-top:25px;
+max-width:700px;
+font-size:20px;
+line-height:1.8;
+color:#6b7280;
+}
+
+.btn-group{
+margin-top:40px;
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.btn-primary{
+background:#0078ff;
+padding:16px 35px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:600;
+}
+
+.btn-secondary{
+padding:16px 35px;
+border-radius:12px;
+text-decoration:none;
+border:2px solid #d6dce5;
+color:#111827;
+font-weight:600;
+}
+
+section{
+padding:80px 0;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.07);
+margin-bottom:30px;
+}
+
+.section-title{
+font-size:38px;
+margin-bottom:30px;
+color:#0078ff;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.info-box{
+background:#eef6ff;
+padding:20px;
+border-radius:15px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill{
+background:#eef6ff;
+padding:12px 18px;
+border-radius:10px;
+font-weight:500;
+color:#0078ff;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.project{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.project h3{
+margin-bottom:10px;
+}
+
+.socials{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.socials a{
+text-decoration:none;
+padding:12px 20px;
+background:#0078ff;
+color:white;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#6b7280;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:58px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.nav-links{
+display:none;
+}
+
+.section-title{
+font-size:30px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-content">
+<div class="logo">BJ</div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+
+<div class="badge">
+AVAILABLE FOR HIRE
+</div>
+
+<h1>
+Bal<span>jeet</span>
+</h1>
+
+<p>
+Aspiring Data Analyst skilled in SQL, Excel, Power BI, Python, Pandas, NumPy, Django, HTML, CSS and JavaScript. Passionate about transforming data into actionable insights through analytics, visualization and business intelligence.
+</p>
+
+<div class="btn-group">
+
+<a href="mailto:bjbaljeet1@gmail.com" class="btn-primary">
+GET IN TOUCH
+</a>
+
+<a href="https://linkedin.com/in/www.linkedin.com/in/bjbaljeet" class="btn-secondary">
+VIEW PROFILE
+</a>
+
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-grid">
+
+<div class="info-box">
+<h3>📊 Data Analytics</h3>
+<p>Data cleaning, reporting, dashboard development and business insights.</p>
+</div>
+
+<div class="info-box">
+<h3>🐍 Python</h3>
+<p>Automation, data analysis and web development using Django.</p>
+</div>
+
+<div class="info-box">
+<h3>📈 Visualization</h3>
+<p>Interactive dashboards using Excel and Power BI.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+
+<h2 class="section-title">Tech Stack</h2>
+
+<div class="skills">
+
+<div class="skill">SQL</div>
+<div class="skill">MySQL</div>
+<div class="skill">Microsoft Excel</div>
+<div class="skill">Power BI</div>
+<div class="skill">Python</div>
+<div class="skill">Pandas</div>
+<div class="skill">NumPy</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Django</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Sales Dashboard</h3>
+<p>Interactive Power BI dashboard for sales performance analysis.</p>
+</div>
+
+<div class="project">
+<h3>Excel Analytics Project</h3>
+<p>Data cleaning, reporting and KPI tracking using Microsoft Excel.</p>
+</div>
+
+<div class="project">
+<h3>Python Data Analysis</h3>
+<p>Data processing and visualization using Pandas and NumPy.</p>
+</div>
+
+<div class="project">
+<h3>FasTyper</h3>
+<p>Typing speed test application built using modern web technologies.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="card">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="socials">
+
+<a href="mailto:bjbaljeet1@gmail.com">Email</a>
+
+<a href="https://instagram.com/_bal_jeet._">Instagram</a>
+
+<a href="https://linkedin.com/in/www.linkedin.com/in/bjbaljeet">LinkedIn</a>
+
+<a href="https://pinterest.com/bjbaljeet">Pinterest</a>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Baljeet • Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
